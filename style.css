@@ -1,0 +1,15 @@
+<style scoped>
+/* Estilo isolado para este componente (scoped) */
+.input-style {
+  /* Aplica classes do Tailwind */
+  @apply p-3 border border-gray-300 rounded-lg shadow-sm 
+         focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500 
+         transition duration-150 text-center text-lg;
+}
+
+/* Garante que o select tenha a mesma altura que o input */
+select.input-style {
+  height: 50px; 
+  /* Ajuste para o padding p-3 */
+}
+</style>
