@@ -1,0 +1,10 @@
+/* Inicializa as diretivas do Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globais adicionais, se necessário */
+body {
+    font-family: sans-serif;
+    background-color: #f0f4f8;
+}
